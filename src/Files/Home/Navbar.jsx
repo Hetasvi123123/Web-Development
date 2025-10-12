@@ -10,7 +10,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-white">
-          <h1>HetaraCode</h1>
+          <Link to="/"><h1>HetaraCode</h1></Link>
+
         </div>
 
         {/* Desktop Menu */}
