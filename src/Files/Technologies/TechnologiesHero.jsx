@@ -8,7 +8,7 @@ const TechnologiesHero = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[500px] sm:h-[400px] xs:h-[300px]">
+    <div className="relative w-full h-[500px] sm:h-[600px] xs:h-[300px]">
       {/* Hero Image */}
       <img
         src="/assets/img/Hero.jpeg"
