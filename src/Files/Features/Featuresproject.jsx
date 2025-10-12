@@ -69,13 +69,16 @@ const Featuresproject = () => {
   ];
 
   return (
+            <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+
     <section className="py-12 px-4 md:px-8 lg:px-16">
-    <div className="text-center mb-12">
-  <h2 className="text-3xl font-bold text-gray-800 mb-2">Featured Projects</h2>
-  <p className="text-gray-500">
-    Explore innovative web applications built by our community
-  </p>
-</div>
+
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold text-gray-800 mb-2">Featured Projects</h2>
+        <p className="text-gray-500">
+          Explore innovative web applications built by our community
+        </p>
+      </div>
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, i) => (
@@ -125,7 +128,10 @@ const Featuresproject = () => {
           </div>
         ))}
       </div>
+
     </section>
+      </div>
+
   );
 };
 
