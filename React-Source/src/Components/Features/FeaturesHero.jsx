@@ -11,7 +11,7 @@ const FeaturesHero = () => {
     <div className="relative w-full h-[500px] sm:h-[600px] xs:h-[300px]">
       {/* Background Image */}
       <img
-        src="/assets/img/Hero.jpeg"
+        src="/assets/img/Hero.jpg"
         alt="Hero"
         className="w-full h-full object-cover"
       />

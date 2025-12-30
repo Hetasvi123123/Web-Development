@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Hero = () => {
+const TechnologiesHero = () => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="relative w-full h-[500px] sm:h-[600px] xs:h-[300px]">
       {/* Hero Image */}
       <img
-        src="/assets/img/Hero.jpeg"
+        src="/assets/img/Hero.jpg"
         alt="Hero"
         className="w-full h-full object-cover"
       />
@@ -25,12 +25,16 @@ const Hero = () => {
         data-aos="fade-up"
       >
         <h1 className="text-white font-extrabold leading-tight
-                       text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-          Build the web.<br /> Shape the Future
+                       text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+          Web Development Technologies
         </h1>
+        <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl mt-4 max-w-2xl">
+          Implement responsive designs that work across devices. <br />
+          Learn Tailwind CSS, modern layouts, and best practices for accessibility and performance.
+        </p>
       </div>
     </div>
   );
 };
 
-export default Hero;
+export default TechnologiesHero;
